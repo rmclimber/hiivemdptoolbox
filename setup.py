@@ -7,8 +7,8 @@ setup(
     
     author='Andrew Rollings (originally Steven A. W. Cordwell)',
     author_email='a.rollings@hiive.com',
-    url='https://github.com/hiive/hiivemdptoolbox',
-    download_url='https://github.com/hiive/hiivemdptoolbox/archive/4.0.3.1.tar.gz',
+    url='https://github.com/rmclimber/hiivemdptoolbox',#'https://github.com/hiive/hiivemdptoolbox',
+    download_url='https://github.com/rmclimber/hiivemdptoolbox/archive/refs/heads/master.zip',# 'https://github.com/hiive/hiivemdptoolbox/archive/4.0.3.1.tar.gz',
     description='Markov Decision Process (MDP) Toolbox',
     long_description='The MDP toolbox provides classes and functions for '
                      'the resolution of discrete-time Markov Decision Processes. The list of '
