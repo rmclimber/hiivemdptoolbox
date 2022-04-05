@@ -45,8 +45,8 @@ class OpenAI_MDPToolbox:
                 for i in range(len(self.transitions[state][action])):
                     tran_prob = self.transitions[state][action][i][0]
                     state_ = self.transitions[state][action][i][1]
-                    # self.R[state][action] += tran_prob*self.transitions[state][action][i][2]
-                    self.R[action, state, state_] = self.transitions[state][action][i][2]
+                    self.R[state][action] += tran_prob*self.transitions[state][action][i][2]
+                    # self.R[action, state, state_] = self.transitions[state][action][i][2]
                     self.P[action, state, state_] += tran_prob
 
                     print('convert_PR')
