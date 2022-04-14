@@ -1642,6 +1642,7 @@ class ValueIteration(MDP):
             'Error': error,
             'Time': _time.time() - self.time,
             # 'Epsilon': self.epsilon,
+            'V[0]': v[0],
             'Max V': _np.max(v),
             'Mean V': _np.mean(v),
             'Iteration': i,
